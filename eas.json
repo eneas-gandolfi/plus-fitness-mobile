@@ -1,19 +1,17 @@
 {
+    "cli": {
+        "appVersionSource": "remote"
+    },
     "build": {
-        "development": {
-            "developmentClient": true,
-            "distribution": "internal"
-        },
         "preview": {
-            "node": "20.10.0",
+            "node": "20.19.4",
             "yarn": "1.22.22",
             "android": {
                 "buildType": "apk"
             }
         },
-        "production": {}
-    },
-    "submit": {
-        "production": {}
+        "production": {
+            "node": "20.19.4"
+        }
     }
 }
