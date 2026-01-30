@@ -1,0 +1,19 @@
+{
+    "build": {
+        "development": {
+            "developmentClient": true,
+            "distribution": "internal"
+        },
+        "preview": {
+            "node": "20.10.0",
+            "yarn": "1.22.22",
+            "android": {
+                "buildType": "apk"
+            }
+        },
+        "production": {}
+    },
+    "submit": {
+        "production": {}
+    }
+}
